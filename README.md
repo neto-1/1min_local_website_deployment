@@ -57,7 +57,8 @@ Install the following tools on your host machine:
 - Git
 
 ### Hint (how to install the window package manager tool `chocolatey` and subsequently `vagrant` using chocolatey )
-- To install the package manager tool "chocolatey" on windows, visit [Chocolatey Installation Guide](https://chocolatey.org/install) or Open powershell as admin and run the command under:
+- To install the package manager tool "chocolatey" on windows, visit [Chocolatey Installation Guide](https://chocolatey.org/install) or
+- Open powershell as admin and run the command under:
 
 ```bash
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
